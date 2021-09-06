@@ -74,6 +74,12 @@
   line-height:1.6em;
   color:#777;" href="pricing.html">REFERENCES</a>
       </li>
+       <li class="nav-item">
+        <a class="nav-link" style="font-family:'Open Sans', Arial, sans-serif;
+  font-weight:700;
+  line-height:1.6em;
+  color:#777;" href="contact.html">Contact</a>
+      </li>
       <li class="nav-item dropdown">
         <a  style="font-family:'Open Sans', Arial, sans-serif;
   font-weight:700;
@@ -228,7 +234,7 @@ One of the key elements of providing quality care is to install the best nurse c
      
         <!-- End Service Blcoks -->
 <div class="row">
-  <div class="column" style=" text-align: center; background-color:#f7f7f7;width: 48%;height: 20%;margin-right: 2%;">
+  <div class="column" id="s1" onClick="reply_click(this.id)" style=" text-align: center; background-color:#f7f7f7;width: 48%;height: 20%;margin-right: 2%;">
     <img  style="width: 90px;height: 90px;float: left;" src="https://www.randaglobal.com/wp-content/uploads/wireless-nurse-call-system-icon.png">
     <p style="font-family:'Open Sans', Arial, sans-serif;
   font-size:14px;
@@ -238,7 +244,7 @@ One of the key elements of providing quality care is to install the best nurse c
 ">Wireless Nurse Call System</p>
 
   </div>
-  <div class="column"  style=" text-align: center; background-color:#f7f7f7;width: 48%;height: 20% ">
+  <div class="column" id="s2" onClick="reply_click(this.id)"  style=" text-align: center; background-color:#f7f7f7;width: 48%;height: 20% ">
  <img style="width: 90px;height: 90px;    float: left;
 " src="https://www.randaglobal.com/wp-content/uploads/wired-nurse-call-system-icon.png">   
  <p style="text-align:justify;font-family:'Open Sans', Arial, sans-serif;
@@ -251,7 +257,7 @@ One of the key elements of providing quality care is to install the best nurse c
   </div>
 </div>
 <div class="row">
-  <div class="column" style=" text-align: center; background-color:#f7f7f7;width: 48%;height: 20%;margin-right: 2%; ">
+  <div class="column" id="s3" onClick="reply_click(this.id)" style=" text-align: center; background-color:#f7f7f7;width: 48%;height: 20%;margin-right: 2%; ">
     <img style="width: 90px;height: 90px;float: left;" src="https://www.randaglobal.com/wp-content/uploads/ip-nurse-call-system-icon.png">
     <p style="text-align:justify;font-family:'Open Sans', Arial, sans-serif;
   font-size:14px;
@@ -261,7 +267,7 @@ One of the key elements of providing quality care is to install the best nurse c
 ">IP BASED NURSE CALL SYSTEM
 </p>
   </div>
-  <div class="column"  style=" text-align: center; background-color:#f7f7f7;width: 48%;height: 20% ">
+  <div class="column" id="s4" onClick="reply_click(this.id)"  style=" text-align: center; background-color:#f7f7f7;width: 48%;height: 20% ">
  <img style="width: 90px;height: 90px;float: left;" src="https://www.randaglobal.com/wp-content/uploads/hospital-emergency-codes-icon.png">    <p style="text-align:justify;font-family:'Open Sans', Arial, sans-serif;
   font-size:14px;
   font-weight:300;
@@ -300,6 +306,43 @@ One of the key elements of providing quality care is to install the best nurse c
   width: 50%;
 }
 </style>
+
+
+<script type="text/javascript">
+
+
+   function reply_click(clicked_id)
+  {
+if (clicked_id == "s1") {
+
+  window.location.href = "rfnursecall.html";
+
+
+}
+
+if (clicked_id == "s2") {
+
+  window.location.href = "wirednursecall.html";
+
+
+}
+if (clicked_id == "s3") {
+
+  window.location.href = "ipnursecall.html";
+
+
+}
+if (clicked_id == "s4") {
+
+  window.location.href = "code.html";
+
+
+}
+  }
+
+
+
+</script>
         <hr class="margin-bottom-50">
 <div style="text-align: center;margin-bottom: 5%;">
 <a href="https://randa.com.tr/wp-content/uploads/2020/01/Digimat-Referans-Listesi-1.pdf" target="_blank" style="text-align: center;font-size: 20px;color: black;"></a>
