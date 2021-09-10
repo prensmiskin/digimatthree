@@ -42,14 +42,15 @@
 
 	<!-- start header -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 2%;">
-    <img src="https://randa.com.tr/wp-content/uploads/2019/02/logo.png" height="50" alt="">
+    <img id="c1" onClick="reply_click(this.id)" style="cursor:pointer;"
+ src="https://randa.com.tr/wp-content/uploads/2019/02/logo.png" height="50" alt="">
   
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav navbar-nav ml-auto" style="font-size: 14px;">
+    <ul class="navbar-nav navbar-nav ml-auto" style="font-size: 15px;">
       <li class="nav-item" >
         <a class="nav-link" style="font-family:'Open Sans', Arial, sans-serif;
   font-weight:700;
@@ -61,24 +62,6 @@
   font-weight:700;
   line-height:1.6em;
   color:#777;" href="about.html">About Us</a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link"  style="font-family:'Open Sans', Arial, sans-serif;
-  font-weight:700;
-  line-height:1.6em;
-  color:#777;" href="services.html">News</a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" style="font-family:'Open Sans', Arial, sans-serif;
-  font-weight:700;
-  line-height:1.6em;
-  color:#777;" href="pricing.html">References</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" style="font-family:'Open Sans', Arial, sans-serif;
-  font-weight:700;
-  line-height:1.6em;
-  color:#777;" href="contact.html">Contact</a>
       </li>
       <li class="nav-item dropdown">
         <a  style="font-family:'Open Sans', Arial, sans-serif;
@@ -102,6 +85,25 @@
   color:#777;" class="dropdown-item" href="kiosk.html">Queue Management Systems</a>
         </div>
       </li>
+       <li class="nav-item">
+        <a class="nav-link"  style="font-family:'Open Sans', Arial, sans-serif;
+  font-weight:700;
+  line-height:1.6em;
+  color:#777;" href="services.html">News</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" style="font-family:'Open Sans', Arial, sans-serif;
+  font-weight:700;
+  line-height:1.6em;
+  color:#777;" href="pricing.html">References</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="font-family:'Open Sans', Arial, sans-serif;
+  font-weight:700;
+  line-height:1.6em;
+  color:#777;" href="contact.html">Contact</a>
+      </li>
+      
       
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -596,6 +598,12 @@ if (clicked_id == "s7") {
 if (clicked_id == "s8") {
 
   window.location.href = "rftransmitter.html";
+
+
+}
+if (clicked_id == "c1") {
+
+  window.location.href = "index.html";
 
 
 }
